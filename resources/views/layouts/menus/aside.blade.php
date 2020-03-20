@@ -24,17 +24,17 @@
                         <li class="nav-small-cap">Gestão</li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="ti-pencil-alt"></i><span class="hide-menu">Turmas</a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html"> Cadastro Turmas  </a></li>
+                                <li><a href="{{route('turmas')}}"> Cadastro Turmas  </a></li>
                             </ul>
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="ti-user"></i><span class="hide-menu"> Alunos </span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="app-calendar.html">Cadastro Alunos </a></li>
+                                <li><a href="{{route('alunos')}}">Cadastro Alunos </a></li>
                             </ul>
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="ti-book"></i><span class="hide-menu">Disciplinas </span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="app-email.html"> Cadastro Disciplina </a></li>
+                                <li><a href="{{route('disciplinas')}}"> Cadastro Disciplina </a></li>
                             </ul>
                         </li>
                     </ul>
